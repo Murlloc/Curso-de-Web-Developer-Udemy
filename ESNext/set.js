@@ -1,0 +1,6 @@
+const times = new Set()
+times.add('Vasco')
+times.add('São Paulo').add('Palmeiras')
+times.add('Flamengo')
+times.add('Vasco')
+console.log(times)

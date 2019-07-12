@@ -1,0 +1,8 @@
+{
+    "database":{
+        "host": "Localhost",
+        "porta": 8080,
+        "usuario": "admin",
+        "password": "admin"
+    }
+}

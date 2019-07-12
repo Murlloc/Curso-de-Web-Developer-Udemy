@@ -1,0 +1,14 @@
+
+span {
+    background-color: royalblue;
+}
+.vermelho {
+    background-color: red;
+}
+.negrito {
+    font-weight: bold;
+}
+#textoPrincipal {
+    font-size: 47px;
+    background-color: white;
+}

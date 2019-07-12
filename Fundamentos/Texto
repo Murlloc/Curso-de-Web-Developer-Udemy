@@ -1,0 +1,38 @@
+Detalhes sobre a linguagem:
+
+    Detalhe 1 : Fracamente tipada
+    
+    Detalhe 2 : Booleano, representação de uma operação logica { let variavel = a || b || c; }  +
+    + retorna a parte verdadeira, bom para usar como verificação, sem usar os operadores "if's"
+
+    Detalhe 3 : Como em python javascript percebe o array como uma lista do tipo pilha, funções +
+    + pop e push podem ser usadas criação de lista encadeada com a função list.
+
+    Detalhe 4 : NUNCA declare e use variaveis no escopo global, declarar a variavel no momento de +
+    + uso, pois a variavel global não esta encapsulada podendo ser manipulada em qualquer lugar +
+    + do codigo. ( esse é um tipo de encapsulamento do javascript)
+
+    Detalhe 5 : Usar variavel let para que a função respeite os valores da variavel + 
+    + var, pode ser alterada fora do escopo
+
+    Detalhe 6 : Contexto das chaves/valores, é possivel ter varias variaveis e/ou constantes +
+    + de mesmo nome, so que em partes / contextos diferente exemplo{
+
+        const exemplo = 'blabla'
+
+        function (){
+            const exemplo = 1
+            console.log(exemplo)
+        }
+        TERMINAL: 1
+    }
+
+Detalhes que eu não sabia:
+
+    Detalhe 1 : Uma variavel segurando um objeto, na vdd não segura seu valor mas sim APENAS +
+    + o endereço de memoria que o objeto se encontra, da mesma forma que funciona a função STRUCT +
+    + da linguagem C, portanto se duas variaveis ou mais estiverem com esse endereço, no momento da +
+    + alteração desse objeto, será alterado nas duas variaveis, pois, novamente, elas guardam APENAS +
+    + o enedereço de memoria não o objeto em si.
+
+    Detalhe 2 : OBJETO É REFERENCIA, FUNÇÃO É PARAMETRIZADA, PARAMETRIZAÇÃO DE OBJETO É CONSTRUÇÃO

@@ -1,0 +1,50 @@
+.List {
+    color:black;
+    font-family: "Yatra One";
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 45px;
+}
+
+.Links {
+    color:black;
+    font-family: "Yatra One";
+    text-decoration: none;
+}
+
+.hello {
+    font-family: 'Yatra One';
+    font-size: 35px;
+    color: Black;
+    text-align: center;
+}
+
+.world{
+    font-family: 'Yatra One';
+    font-size: 38px;
+    color: midnightblue;
+
+}
+
+.exemplo{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    width: 225px;
+    background-color: white;
+    padding: 7px 12px;
+  }
+
+  
+
+.exemplos {
+    display: block;
+    width: 250px;
+    background-color:midnightblue;
+    padding: 8px 8px;
+}  
