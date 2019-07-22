@@ -15,36 +15,14 @@
 
 .hello {
     font-family: 'Yatra One';
-    font-size: 35px;
+    font-size: 65px;
     color: Black;
     text-align: center;
 }
 
 .world{
     font-family: 'Yatra One';
-    font-size: 38px;
-    color: midnightblue;
+    font-size: 68px;
+    color: Black;
 
 }
-
-.exemplo{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-li a{
-    display: block;
-    width: 225px;
-    background-color: white;
-    padding: 7px 12px;
-  }
-
-  
-
-.exemplos {
-    display: block;
-    width: 250px;
-    background-color:midnightblue;
-    padding: 8px 8px;
-}  
