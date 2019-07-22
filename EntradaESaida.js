@@ -1,1 +1,0 @@
-const anonimo = process.argv.indexOf('-a' !== -1)
