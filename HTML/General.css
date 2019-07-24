@@ -25,3 +25,16 @@
     text-align: center;
     width: 100%;
 }
+.hideANDsee {
+    cursor: pointer; 
+    user-select: none; /* Prevent text selection */
+}
+/* Hide the nested list */
+.nested {
+    display: none;
+}
+  
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+    display: block;
+}
