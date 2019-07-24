@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href = "http://files.cod3r.com.br/curso-web/tree.css">
+    <link rel="stylesheet" href = "../General.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <div class="center">
     <h1>Lists</h1>
 
@@ -47,14 +55,52 @@
     </dl>
 
     <!--Nested list-->
-    <hr width="100%">
-    <ul>
-        <li>Eggs</li>
-        <li>Milk</li>
-        <li>Pop corn</li>
-        <li>Coke</li>
-        <li>Oranges</li>
-        <li>Apples</li>
+    <hr width="100%" color = black>
+    <ul class = "tree">
+        <li>
+            <span class = "hideANDsee">Backend</span>
+            <ul class = "nested">
+                <li>
+                    <span class = "hideANDsee">app</span>
+                    <ul class = "nested">
+                        <li>product.js</li>
+                        <li>user.js</li>
+                        <li>sell.js</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class = "hideANDsee">configuration</span>
+                    <ul class = "nested">
+                        <li>database.js</li>
+                        <li>rout.js</li>
+                        <li>server.js</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span class = "hideANDsee">Frontend</span>
+            <ul class = "nested">
+                <li>
+                    <span class = "hideANDsee">public</span>
+                    <ul class = "nested">
+                        <li>app.css</li>
+                        <li>app.js</li>
+                        <li>index.html</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
     </ul>
+    <script>
+        var toggler = document.getElementsByClassName("hideANDsee");
+        var i;
+        for (i = 0; i < toggler.length; i++) {
+            toggler[i].addEventListener("click", function() {
+            this.parentElement.querySelector(".nested").classList.toggle("active");
+            this.classList.toggle("hideANDsee-down");
+            });
+        }
+    </script>
 </div>
-
+</html>
