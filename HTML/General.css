@@ -34,7 +34,13 @@
     display: none;
 }
   
-/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+/* Show the nested list when the user clicks on (with JavaScript) */
 .active {
     display: block;
+}
+
+/* Table css */
+.tab_products{
+    border-collapse: collapse;
+    padding: 10px;
 }
