@@ -1,0 +1,45 @@
+<div class = "center">
+    <h1>Forms</h1>
+    <form action="http://localhost:3003/users"  method="POST"> 
+        <input type="hidden" name="id" value="3"> <!-- Put the id in 3 to test the 2° bottom -->
+        <input type="text" name="name">
+        <input type="password" name="password">
+        <textarea name="bio" cols="15" rows="5">Put something here</textarea>
+        <div>
+            <input type="radio" name="type" value="admin"> Admin
+            <input type="radio" name="type" value="regular"> Regular
+        </div>
+        <div>
+            <input type="checkbox" name="ativo"> Ativo
+        </div>
+        <select name="estate">
+            <option>Select</option>
+            <option value="AC">Acre</option>
+            <option value="GO">Goias</option>
+            <option value="Tiro">Rio de Janeiro</option>
+        </select>
+        <select name="Choose some" multiple size="5">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="PHP">PHP</option>
+            <option value="C#">C#</option>
+            <option value="GoLang">GoLang</option>
+        </select>
+        <button>Create</button>
+        <button formaction="http://localhost:3003/users/3">Alter</button>
+    </form>
+</div>
+
+<style>
+    input,
+    textarea{
+        display:block;
+        margin-bottom: 10px;
+    }
+    input[type=radio]{
+        display: inline;
+    }
+    input[type=checkbox]{
+        display: inline;
+    }
+</style>
